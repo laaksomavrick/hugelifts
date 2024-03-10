@@ -5,8 +5,8 @@
 //  Created by Mavrick Laakso on 2024-03-04.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct HugeliftsApp: App {
