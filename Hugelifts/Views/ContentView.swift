@@ -8,24 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     var body: some View {
         TabView {
-           TodayView()
+            TodayView()
                 .tabItem {
                     Label("Today", systemImage: "calendar.badge.clock")
                 }
-           WorkoutsView()
+            WorkoutsView()
                 .tabItem {
                     Label("Workouts", systemImage: "dumbbell")
                 }
-           ExercisesView()
+            ExercisesView()
                 .tabItem {
                     Label("Exercises", systemImage: "figure.strengthtraining.functional")
                 }
         }
     }
-
 }
 
 #Preview {
