@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58E862192B9E292500A4A957 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E862182B9E292500A4A957 /* TodayView.swift */; };
+		58E8621B2B9E294C00A4A957 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8621A2B9E294C00A4A957 /* WorkoutsView.swift */; };
+		58E8621D2B9E297900A4A957 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8621C2B9E297900A4A957 /* ExercisesView.swift */; };
 		58F843342B966EE10065C1D9 /* HugeliftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F843332B966EE10065C1D9 /* HugeliftsApp.swift */; };
 		58F843362B966EE10065C1D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F843352B966EE10065C1D9 /* ContentView.swift */; };
 		58F843382B966EE10065C1D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F843372B966EE10065C1D9 /* Item.swift */; };
 		58F8433A2B966EE20065C1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F843392B966EE20065C1D9 /* Assets.xcassets */; };
 		58F8433D2B966EE20065C1D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F8433C2B966EE20065C1D9 /* Preview Assets.xcassets */; };
 		58F843472B966EE20065C1D9 /* HugeliftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F843462B966EE20065C1D9 /* HugeliftsTests.swift */; };
-		58F843512B966EE20065C1D9 /* HugeliftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F843502B966EE20065C1D9 /* HugeliftsUITests.swift */; };
+		58F843512B966EE20065C1D9 /* ContentViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F843502B966EE20065C1D9 /* ContentViewUITests.swift */; };
 		58F843532B966EE20065C1D9 /* HugeliftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F843522B966EE20065C1D9 /* HugeliftsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58E862182B9E292500A4A957 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		58E8621A2B9E294C00A4A957 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		58E8621C2B9E297900A4A957 /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
 		58F843302B966EE10065C1D9 /* Hugelifts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hugelifts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F843332B966EE10065C1D9 /* HugeliftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeliftsApp.swift; sourceTree = "<group>"; };
 		58F843352B966EE10065C1D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,7 +50,7 @@
 		58F843422B966EE20065C1D9 /* HugeliftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HugeliftsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F843462B966EE20065C1D9 /* HugeliftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeliftsTests.swift; sourceTree = "<group>"; };
 		58F8434C2B966EE20065C1D9 /* HugeliftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HugeliftsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58F843502B966EE20065C1D9 /* HugeliftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeliftsUITests.swift; sourceTree = "<group>"; };
+		58F843502B966EE20065C1D9 /* ContentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewUITests.swift; sourceTree = "<group>"; };
 		58F843522B966EE20065C1D9 /* HugeliftsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugeliftsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58E8621E2B9E2AD600A4A957 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58F843352B966EE10065C1D9 /* ContentView.swift */,
+				58E862182B9E292500A4A957 /* TodayView.swift */,
+				58E8621A2B9E294C00A4A957 /* WorkoutsView.swift */,
+				58E8621C2B9E297900A4A957 /* ExercisesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		58F843272B966EE10065C1D9 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +113,8 @@
 		58F843322B966EE10065C1D9 /* Hugelifts */ = {
 			isa = PBXGroup;
 			children = (
+				58E8621E2B9E2AD600A4A957 /* Views */,
 				58F843332B966EE10065C1D9 /* HugeliftsApp.swift */,
-				58F843352B966EE10065C1D9 /* ContentView.swift */,
 				58F843372B966EE10065C1D9 /* Item.swift */,
 				58F843392B966EE20065C1D9 /* Assets.xcassets */,
 				58F8433B2B966EE20065C1D9 /* Preview Content */,
@@ -124,7 +141,7 @@
 		58F8434F2B966EE20065C1D9 /* HugeliftsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				58F843502B966EE20065C1D9 /* HugeliftsUITests.swift */,
+				58F843502B966EE20065C1D9 /* ContentViewUITests.swift */,
 				58F843522B966EE20065C1D9 /* HugeliftsUITestsLaunchTests.swift */,
 			);
 			path = HugeliftsUITests;
@@ -260,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E8621D2B9E297900A4A957 /* ExercisesView.swift in Sources */,
 				58F843362B966EE10065C1D9 /* ContentView.swift in Sources */,
+				58E8621B2B9E294C00A4A957 /* WorkoutsView.swift in Sources */,
 				58F843382B966EE10065C1D9 /* Item.swift in Sources */,
+				58E862192B9E292500A4A957 /* TodayView.swift in Sources */,
 				58F843342B966EE10065C1D9 /* HugeliftsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58F843532B966EE20065C1D9 /* HugeliftsUITestsLaunchTests.swift in Sources */,
-				58F843512B966EE20065C1D9 /* HugeliftsUITests.swift in Sources */,
+				58F843512B966EE20065C1D9 /* ContentViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
